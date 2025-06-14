@@ -9,7 +9,7 @@ mkdir build && cd build
 cmake ..
 make
 ```
-
-# Run
+After build you can start the game with
 ```Bash
 ./uno-card-game
+```
