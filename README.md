@@ -3,6 +3,9 @@ An implementation of Uno card game in C++. You can now play Uno with (not really
 
 # Build
 ```Bash
+git clone https://github.com/n3tw4lk3r/UnoInTerminal
+cd UnoInTerminal
 mkdir build && cd build
 cmake ..
 make
+./uno-card-game
