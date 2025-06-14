@@ -6,21 +6,21 @@
 class Card {
 public:
     enum class Type {
-        NONE,
-        COMMON,
-        REVERSE,
-        DRAW2,
-        SKIP,
-        WILD_COMMON,
-        WILD_DRAW4
+        kNone,
+        kCommon,
+        kReverse,
+        kDrawTwo,
+        kSkip,
+        kWildCommon,
+        kWildDrawFour 
     };
 
     enum class Color {
-        NONE,
-        BLUE,
-        GREEN,
-        RED,
-        YELLOW
+        kNone,
+        kBlue,
+        kGreen,
+        kRed,
+        kYellow 
     };
 
     Card(const Card& other) = default;

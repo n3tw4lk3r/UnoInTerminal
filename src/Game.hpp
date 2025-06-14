@@ -20,9 +20,9 @@ private:
     constexpr static size_t kMinPlayersNumber = 2;
     constexpr static size_t kMaxPlayersNumber = 10;
 
-    const size_t delay;
-    const size_t playersCnt;
-    const size_t userIdx;
+    const size_t kDelay;
+    const size_t kPlayersCnt;
+    const size_t kUserIdx;
 
     size_t currentPlayerIdx;
     bool directionIsReversed;

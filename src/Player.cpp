@@ -29,15 +29,15 @@ Card User::makeMove(const Card& topCard) {
     try {
         int idx = stoi(s);
         if (!(1 <= idx && idx <= cards.size()))
-            return Card(Card::Type::NONE, Card::Color::NONE, -1);
+            return Card(Card::Type::kNone, Card::Color::kNone, -1);
         --idx;
         Card card = cards[idx];
         if (!Card::canBePlayed(card, topCard))
-            return Card(Card::Type::NONE, Card::Color::NONE, -1);
+            return Card(Card::Type::kNone, Card::Color::kNone, -1);
         cards.erase(cards.begin() + idx);
         return card;
     } catch (const std::exception& e) {
-        return Card(Card::Type::NONE, Card::Color::NONE, -1);
+        return Card(Card::Type::kNone, Card::Color::kNone, -1);
     }
 }
 
@@ -61,7 +61,7 @@ Card Bot::makeMove(const Card& topCard) {
         }
     }
     if (possibleCards.empty())
-        return Card(Card::Type::NONE, Card::Color::NONE, -1);
+        return Card(Card::Type::kNone, Card::Color::kNone, -1);
     int idx = randomUtils::generateRandomInt(0, possibleCards.size() - 1);
     return possibleCards[idx];
 }
