@@ -8,4 +8,8 @@ cd UnoInTerminal
 mkdir build && cd build
 cmake ..
 make
+```
+
+# Run
+```Bash
 ./uno-card-game
