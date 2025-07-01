@@ -194,7 +194,7 @@ bool Game::tryNextMove() {
         std::cout << "Player " << currentPlayerIdx + 1 << " (bot) is making a move..." << std::endl;
     std::this_thread::sleep_for(std::chrono::seconds(kDelay));
     Card card = players[currentPlayerIdx]->makeMove(discardPile.back());
-    std::cout << "Player " << currentPlayerIdx + 1 << " has made its move." << std::endl;
+    std::cout << "Player " << currentPlayerIdx + 1 << " has made their move." << std::endl;
 
     if (card.getType() == Card::Type::kNone) {
         Card card = takeCardFromDrawPile();
