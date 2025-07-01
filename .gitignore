@@ -5,8 +5,6 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-compile_flags.txt
-
 # Executables and objects
 *.o
 *.obj
