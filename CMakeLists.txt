@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(uno-card-game CXX)
+project(unoInTerminal CXX)
 
 # Build configuration
 set(CMAKE_CXX_STANDARD 20)
