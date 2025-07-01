@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(unoInTerminal CXX)
+project(UnoInTerminal CXX)
 
 # Build configuration
 set(CMAKE_CXX_STANDARD 20)
