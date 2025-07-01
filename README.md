@@ -11,5 +11,5 @@ make
 ```
 After building you can start the game with
 ```Bash
-./uno-card-game
+./UnoInTerminal
 ```
